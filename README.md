@@ -1,7 +1,7 @@
 # My Personal Website
 
 This is my personal website (still under development).
-It is adapted from my final project in CS336 Web Development in 2022 at Calvin University by Clare Schellenberg, Germaine Hounakey, and Josiah Ryan.
+It is adapted from my [final project](https://github.com/jryanb0b/personal-website) in CS336 Web Development in 2022 at Calvin University by Clare Schellenberg, Germaine Hounakey, and Josiah Ryan.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
