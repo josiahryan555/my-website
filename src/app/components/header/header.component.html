@@ -1,0 +1,12 @@
+<mat-toolbar class="toolbar">
+  <a class="header" id="home" mat-button routerLink="/landing-page">Josiah Ryan</a>
+  <span class="space"></span>
+  <a class="header" mat-button routerLink="/about">About</a>
+  <a class="header" mat-button routerLink="/contact">Contact</a>
+  <a class="header" mat-button routerLink="/portfolio">Portfolio</a>
+  <!-- <a class="header" mat-button routerLink="/proj-info">Project Info Page</a> -->
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+<!-- I THINK THIS IS THE CAUSE OF THE DOUBLE REDNERING PROBLEM  -->
+<!-- We fixed this issue, all we had to do was redirect the link to the AppComponnet-->

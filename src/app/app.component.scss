@@ -1,0 +1,19 @@
+#sect1 {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-image: url("../assets/imgs/background2.jpg");
+    max-width: 100%;
+}
+
+#welcome-phrase {
+    background-color: #fff;
+    padding: 5vmin;
+    margin-top: 40vh;
+    // padding-top: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 7vmin;
+}

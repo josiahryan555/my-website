@@ -1,0 +1,160 @@
+* {
+  border: 0px solid black;
+}
+
+.page {
+  display: grid;
+}
+
+#card {
+  // border: 5px solid rgb(232, 228, 228);
+  display: grid;
+  min-width: 150px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1vw;
+  margin-left: 2.3vw;
+  margin-bottom: 1vw;
+  border-radius: 5px;
+}
+
+#image-box {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 12vw;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
+}
+
+#image {
+  display: grid;
+  max-width: 10vw;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+#title {
+  font-family: 'Lora', serif;
+  font-size: 1.75vw;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+  line-height: 1.8vw;
+
+}
+
+#description {
+  font-family: 'Lora', serif;
+  font-size: 1vw;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+}
+
+#learn-more-button {
+  font-size: 1vw;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+  font-family: 'Lora', serif;
+}
+
+#learn-more-button:hover {
+  background-color: #F7E5E8;
+  //color: white;
+}
+
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
+@media all and (max-width: 600px) {
+
+  .icon {
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
+
+  #icon-content {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: grid;
+    justify-content: center;
+  }
+
+  #card {
+    width: 80vw;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #content {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    justify-content: center;
+  }
+
+  #image-box {
+    width: 80vw;
+    grid-row-end: 1;
+    grid-column-end: 1;
+    margin-bottom: 1vw;
+    display: grid;
+    justify-content: center;
+  }
+
+  #image {
+    max-width: 50vw;
+    margin: auto;
+  }
+
+  #description {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    max-width: 80vw;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    text-align: center;
+  }
+
+  #learn-more-button {
+    font-size: 4vw;
+    margin-bottom: 4vw;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-right: 0;
+  }
+
+  #title {
+    margin-top: 4vw;
+    font-size: 5.5vw;
+    line-height: 6vw;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    max-width: 80vw;
+    display: grid;
+    text-align: center;
+  }
+}

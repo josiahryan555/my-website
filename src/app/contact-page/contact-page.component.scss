@@ -1,0 +1,97 @@
+.header {
+  background-color: white;
+  color: black;
+  font-family: 'Lora', serif;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.description {
+  font-size: 4vw;
+  max-width: 30vw;
+  line-height: 5vw;
+  color: black;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.textbox {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form {
+  font-family: 'Lora', serif;
+  width: 35vw;
+  // border: 5px solid rgb(232, 228, 228);
+  padding: 2vw;
+  margin-bottom: 4vh;
+}
+
+#message-box {
+  height: 200px;
+  width: 35vw;
+  max-width: 100%;
+  min-width: 75%;
+}
+
+.button {
+  font-family: 'Lora', serif;
+}
+
+.button:hover {
+  background-color: #F7E5E8;
+}
+
+.page {
+  background-image: url("../../assets/imgs/background2.jpg");
+  max-width: 100%;
+}
+
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
+@media all and (max-width: 600px) {
+
+  .description {
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+    max-width: 80vw;
+    font-size: 8vw;
+  }
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-top: 4vw;
+    width: 80vw;
+  }
+
+  #message-box {
+    width: 80vw;
+  }
+
+  .button {
+    align-items: center;
+    font-size: 2.5vw;
+  }
+
+  .textbox {
+    font-size: 2.5vw;
+  }
+}

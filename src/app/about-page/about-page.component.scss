@@ -1,0 +1,82 @@
+.header {
+  background-color: white;
+  color: black;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin-bottom: 3%;
+}
+
+// *********************************************
+// The below were taken from proj-info-page.component.css (and partly modified)
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+  flex: 200px;
+}
+
+.image {
+  max-width: 50vw;
+  max-height: 50vh;
+  border-radius: 50%;
+  // border-radius: 10px;
+}
+
+.text {
+  font-family: 'Lora', serif;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px lightgray;
+  width: 40vw;
+  font-size: 1vw;
+  line-height: 1.5vw;
+  color: black;
+}
+
+.date {
+  font-size: 2vw;
+}
+
+.icon {
+  // font-size: 2vw;
+  // fixed size to account for size of svg files
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+.page {
+  background-image: url("../../assets/imgs/background2.jpg");
+  max-width: 100%;
+}
+
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
+@media all and (max-width: 600px) {
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    margin-top: 2vw;
+  }
+
+  .text {
+    width: 80vw;
+    padding: 4.5vw;
+    font-size: 4vw;
+    line-height: 4.5vw;
+  }
+}
