@@ -1,27 +1,14 @@
-# Website
+# My Personal Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+This is my personal website (still under development).
+It is adapted from my final project in CS336 Web Development in 2022 at Calvin University by Clare Schellenberg, Germaine Hounakey, and Josiah Ryan.
 
-## Development server
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## To Run
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone this repository to your computer
+2. Open your terminal or powershell at the '/my-website' folder.
+3. Enter: `npm install`.  This will download all the necissary node package modules to support this code. (If it suggests entering `npm audit fix` do so.)
+4. Enter: `ng serve`. This will host this wepage on a port of your computer so you can see it in your browser.  Navigate to [`http://localhost:4200/`](http://localhost:4200/) in your web browser. The application will automatically reload if you change any of the source files.
+5. You should be able to see and interact with the app at that link.
