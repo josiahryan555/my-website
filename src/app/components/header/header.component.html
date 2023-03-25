@@ -1,9 +1,21 @@
 <mat-toolbar class="toolbar">
   <a class="header" id="home" mat-button routerLink="/landing-page">Josiah Ryan</a>
   <span class="space"></span>
-  <a class="header" mat-button routerLink="/about">About</a>
+
+  <!-- the below line was in the original project and goes to the protfolio page -->
+  <!-- <a class="header" mat-button routerLink="/portfolio">Portfolio</a> -->
+  <!-- the below line replaces the above line and is intended to take the user to my github -->
+  <a class="header" mat-button href="https://github.com/jryanb0b">github</a>
+
+
+  <!-- <a class="header" mat-button routerLink="/about">About</a> -->
+  <!-- above line takes user to the about component and was replaced be the below lines-->
+  <!-- <a class="header" mat-button href="https://docs.google.com/file/d/14bFT6thfcjoSUSEmHqrQqb4NqSzB7GLYpM9z68EcAXI/view?usp=sharing">Resume</a> -->
+  <a class="header" mat-button href="https://www.linkedin.com/in/josiah-ryan-b57813205">Linked In</a>
+
   <a class="header" mat-button routerLink="/contact">Contact</a>
-  <a class="header" mat-button routerLink="/portfolio">Portfolio</a>
+
+
   <!-- <a class="header" mat-button routerLink="/proj-info">Project Info Page</a> -->
 </mat-toolbar>
 
