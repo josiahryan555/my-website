@@ -18,5 +18,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Note: right now the webpage is in a branched named `gh-pages`.  This is where the /docs folder is that is deployed.  This process must be done in that branch, and it will be deployed there.  Maybe I should just merge the branchs.  But for now, this process must be done in the `gh-pages` branch
 1. In a console, navigate to the project root and enter this line of code: `ng build --output-path docs --base-href /my-website/`.  This builds the website.
-2. Push and publish the branch
-3. Check and see if it works!  You may need to navigate to `settings/pages` in github/my-website to update the deployed site.  It also may take several minutes to work ¯\_ (ツ)_/¯
+2. Copy `root/docs/index.html`, rename it `404.html`, and put it in the same folder (`root/docs/index.html`)
+3. Push and publish the branch
+4. Wait
+5. Check and see if it works!  You may need to navigate to `settings/pages` in github/my-website to update the deployed site.  It also may take several minutes to work ¯\_ (ツ)_/¯
